@@ -7,8 +7,15 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
+@CrossOrigin(origins = "http://localhost:5173")   // ← add this
 @RestController
 @RequestMapping("/api/students")
+
+
+
+
+//@RestController
+//@RequestMapping("/api/students")
 public class StudentController {
 
     private final StudentService service;
