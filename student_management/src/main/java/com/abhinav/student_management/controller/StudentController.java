@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
-@CrossOrigin(origins = "*") // ← add this
+@CrossOrigin(origins = "https://student-app-pied.vercel.app")// ← add this
 @RestController
 @RequestMapping("/api/students")
 
